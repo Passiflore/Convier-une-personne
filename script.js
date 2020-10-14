@@ -10,7 +10,6 @@ const question4 = container.querySelector('.question4')
 const question5 = container.querySelector('.question5')
 
 const reponseN = container.querySelector('.reponseN')
-const reponseN2 = container.querySelector('.reponseN2')
 const reponseP = container.querySelector('.reponseP')
 
 const buttons = container.querySelector('.buttons')
