@@ -26,7 +26,6 @@ let yes = false
 
 
 let reply = 0
-let advanced = false
 
 const affirmative = () =>
  {
@@ -49,40 +48,22 @@ const nextquestion = () =>
 
     if (reply == 1 && yes == true)
     {
-        question2bis.style.display = ("block")
+        reponseP.style.display = ("block")
         question1.style.display = ("none")
-        advanced = true
-        
+        non.style.display = ("none")
+        oui.style.display = ("none")
+        valider.style.display = ("none")
     }
     if (reply == 1 && yes == false)
     {
         question2.style.display = ("block")
         question1.style.display = ("none")
-        advanced = false
     }
 
     if (reply == 2 && yes == true && advanced == false) // 2 oui
     {
         question3.style.display = ("block")
         question2.style.display = ("none")
-    }
-
-    if (reply == 2 && yes == true && advanced == true) // 2 bis oui
-    {
-        reponseP.style.display = ("block")
-        question2bis.style.display = ("none")
-        non.style.display = ("none")
-        oui.style.display = ("none")
-        valider.style.display = ("none")
-    }
-
-    if (reply == 2 && yes == false && advanced == true ) // 2 bis non
-    {
-        reponseN2.style.display = ("block")
-        question2bis.style.display = ("none")
-        non.style.display = ("none")
-        oui.style.display = ("none")
-        valider.style.display = ("none")
     }
 
     if (reply == 2 && yes == false && advanced == false ) // 2 bis non
