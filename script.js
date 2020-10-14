@@ -41,7 +41,6 @@ const negative = () =>
 non.addEventListener('click',negative)
 
 
-
 const nextquestion = () =>
 {
     reply++
@@ -64,6 +63,7 @@ const nextquestion = () =>
     {
         question3.style.display = ("block")
         question2.style.display = ("none")
+        console.log('Jambon')
     }
 
     if (reply == 2 && yes == false)
