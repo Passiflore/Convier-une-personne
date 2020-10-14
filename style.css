@@ -63,7 +63,6 @@ h1
   font-size: 5vh;
   padding: 0.5vh;
   border: solid 0.5vh #062d5b;
-  box-shadow: 0px 2px 5px 0px rgba(6,45,91,1);
 }
 
 .buttons a:hover
