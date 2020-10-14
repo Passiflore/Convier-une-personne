@@ -127,24 +127,37 @@ valider.addEventListener('click',nextquestion)
 
 oui.addEventListener('click', () =>
 {
-    oui.style.border = 'solid 0.5vh #48fa65'
+    oui.style.border = 'solid 4px #062d5b'
     oui.style.backgroundColor = '#062d5b'
-    non.style.border = 'solid 0.5vh #062d5b'
-    non.style.backgroundColor = '#2ee596'
+    oui.style.color = '#FFFFFF'
+    non.style.border = 'solid 3px #062d5b'
+    non.style.backgroundColor = '#FFFFFF'
+    non.style.color = '#062d5b'
+    valider.style.backgroundColor ='#062d5b'
+    valider.style.border = 'solid 3px #062d5b'
+    valider.style.color ='#2cd189'
 })
 non.addEventListener('click', () =>
 {
-    non.style.border = 'solid 0.5vh #48fa65'
-    non.style.backgroundColor = '#00ff91'
-    oui.style.border = 'solid 0.5vh #062d5b'
-    oui.style.backgroundColor = '#2ee596'
+    non.style.border = 'solid 4px #062d5b'
+    non.style.backgroundColor = '#062d5b'
+    non.style.color = '#FFFFFF'
+    oui.style.border = 'solid 3px #062d5b'
+    oui.style.backgroundColor = '#FFFFFF'
+    oui.style.color = '#062d5b'
+    valider.style.backgroundColor ='#062d5b'
+    valider.style.border = 'solid 3px #062d5b'
+    valider.style.color ='#2cd189'
 })
 valider.addEventListener('click', () =>
 {
-    valider.style.backgroundColor = '#00ff91'
-    oui.style.backgroundColor = '#2ee596'
-    oui.style.border = 'solid 0.5vh #062d5b'
-    non.style.backgroundColor = '#2ee596'
-    non.style.border = 'solid 0.5vh #062d5b'
-    valider.style.backgroundColor = '#2ee596'
+    valider.style.border = 'solid 4px #062d5b'
+    valider.style.backgroundColor = '#062d5b'
+    valider.style.color = '#FFFFFF'
+    oui.style.border = 'solid 3px #062d5b'
+    oui.style.backgroundColor = '#FFFFFF'
+    oui.style.color = '#062d5b'
+    non.style.border = 'solid 3px #062d5b'
+    non.style.backgroundColor = '#FFFFFF'
+    non.style.color = '#062d5b'
 })
