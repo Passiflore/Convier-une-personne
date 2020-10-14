@@ -60,13 +60,13 @@ const nextquestion = () =>
         question1.style.display = ("none")
     }
 
-    if (reply == 2 && yes == true && advanced == false) // 2 oui
+    if (reply == 2 && yes == true)
     {
         question3.style.display = ("block")
         question2.style.display = ("none")
     }
 
-    if (reply == 2 && yes == false && advanced == false ) // 2 bis non
+    if (reply == 2 && yes == false)
     {
         reponseN.style.display = ("block")
         question2.style.display = ("none")
@@ -99,7 +99,7 @@ const nextquestion = () =>
         valider.style.display = ("none")
     }
 
-    if (reply == 4 && yes == true) // gauche NON
+    if (reply == 4 && yes == true)
     {
         question5.style.display = ("block")
         question4.style.display = ("none")
