@@ -128,7 +128,7 @@ valider.addEventListener('click',nextquestion)
 oui.addEventListener('click', () =>
 {
     oui.style.border = 'solid 0.5vh #48fa65'
-    oui.style.backgroundColor = '#00ff91'
+    oui.style.backgroundColor = '#062d5b'
     non.style.border = 'solid 0.5vh #062d5b'
     non.style.backgroundColor = '#2ee596'
 })
