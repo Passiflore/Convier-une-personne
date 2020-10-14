@@ -96,11 +96,7 @@ h1
 
 .reponseN,
 .reponseN2,
-.reponseN3,
-.reponseN4,
-.reponseN5,
-.reponseP,
-.reponseP2
+.reponseP
 {
   display: none;
 }
@@ -110,11 +106,10 @@ h1
   display: block;
 }
 .question2,
+.question2bis,
 .question3,
 .question4,
-.question5,
-.question6,
-.question7
+.question5
 {
   display: none;
 }
