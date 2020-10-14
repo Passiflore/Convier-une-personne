@@ -63,7 +63,6 @@ const nextquestion = () =>
     {
         question3.style.display = ("block")
         question2.style.display = ("none")
-        console.log('Jambon')
     }
 
     if (reply == 2 && yes == false)
@@ -118,6 +117,9 @@ const nextquestion = () =>
     {
         reponseN.style.display = ("block")
         question5.style.display = ("none")
+        non.style.display = ("none")
+        oui.style.display = ("none")
+        valider.style.display = ("none")
     }
 
 }
